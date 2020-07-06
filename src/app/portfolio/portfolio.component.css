@@ -1,0 +1,66 @@
+.portfolio{
+    margin-bottom: 100px;
+}
+
+.code-logo span {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #c0392b;
+    font-size: 12px;
+    transform: rotate(45deg);
+    top: 44px;
+    background: #c0392b;
+    color: #fff;
+    left: 0px;
+    right: 0px;
+    line-height: 13px;
+    margin: auto;
+} 
+.code-logo{
+    border-bottom: 1px solid #c0392b ;
+}
+.imges{
+    
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+}
+.imges:hover .hovr-link{
+    z-index: 99;
+}
+.hovr-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.hovr-link a{
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+
+}
+.hovr-link a i{
+    color: #fff;
+    background-color: #be3f31;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
